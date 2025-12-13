@@ -3,7 +3,7 @@ import Services from '../components/Services'
 import Experiences from '../components/Experiences'
 import Pricing from '../components/Pricing'
 import Testimonials from '../components/Testimonials'
-import Contact from '../components/Contact'
+import BookingSection from '../components/BookingSection'
 
 export default function HomePage() {
   return (
@@ -13,8 +13,7 @@ export default function HomePage() {
       <Experiences />
       <Pricing />
       <Testimonials />
-      <Contact />
+      <BookingSection />
     </>
   )
 }
-
