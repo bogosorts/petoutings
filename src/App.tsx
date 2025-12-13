@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 import HomePage from './pages/HomePage'
 
 // Experience Pages
@@ -30,6 +31,7 @@ import CookiePolicy from './pages/legal/CookiePolicy'
 function App() {
   return (
     <div className="min-h-screen bg-sand-50 flex flex-col">
+      <ScrollToTop />
       <Header />
       <main className="flex-grow">
         <Routes>
