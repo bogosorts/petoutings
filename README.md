@@ -29,7 +29,7 @@ A modern, responsive website for Pet Outings - a pet vacation service offering c
 ### Installation
 
 ```bash
-# Clone the repository
+# Clone the repo
 git clone <repo-url>
 cd PetVacation
 
