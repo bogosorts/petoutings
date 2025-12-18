@@ -15,8 +15,7 @@ export default function HomePage() {
           </div>
 
           <h1 className="font-heading text-4xl sm:text-5xl font-bold text-sand-900 leading-tight">
-            Simple Dog Adventures in{' '}
-            <span className="text-forest-600">San Jose</span>
+            Dog Adventures in <span className="text-forest-600">San Jose</span>
           </h1>
           <p className="mt-5 text-lg text-sand-700">
             Pickup → a fun outdoor adventure → drop-off. That’s it.
@@ -70,7 +69,7 @@ export default function HomePage() {
             </div>
           </div>
           <p className="mt-6 text-sand-600">
-            Keeping it MVP simple — no add-ons, no cameras, no grooming/cleaning packages. Just a safe outing and a happy dog.
+            No add-ons, no cameras, no grooming/cleaning packages. Just a safe outing and a happy dog.
           </p>
         </div>
       </section>

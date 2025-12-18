@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <p className="font-semibold text-sand-900">PetVenture</p>
-            <p className="mt-1 text-sm text-sand-600">Simple dog adventures in San Jose.</p>
+            <p className="mt-1 text-sm text-sand-600">Dog adventures in San Jose.</p>
           </div>
 
           <div className="text-sm text-sand-600">
