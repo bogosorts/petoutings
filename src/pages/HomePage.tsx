@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function HomePage() {
   return (
     <div id="top" className="pt-20">
@@ -20,6 +22,11 @@ export default function HomePage() {
           <p className="mt-5 text-lg text-sand-700">
             Door-to-door pickup → outdoor adventure → drop-off.
           </p>
+          <div className="mt-8 text-center">
+            <Link to="/flyer" className="inline-block bg-forest-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-forest-700 transition-colors">
+              View Flyer
+            </Link>
+          </div>
         </div>
       </section>
 
