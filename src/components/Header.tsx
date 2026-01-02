@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom'
+
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-sand-200">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a href="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <img 
               src="/petLogo.svg" 
               alt="Bay Pet Ventures Logo" 
@@ -12,24 +14,24 @@ export default function Header() {
             <span className="font-heading text-lg font-bold text-sand-900">
               Bay <span className="text-forest-600">Pet Ventures</span>
             </span>
-          </a>
+          </Link>
           
           <div className="hidden md:flex items-center gap-6">
-            <a href="/" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            <Link to="/" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               Home
-            </a>
-            <a href="#about" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            </Link>
+            <Link to="/about" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               About Us
-            </a>
-            <a href="#services" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            </Link>
+            <Link to="/services" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               Services
-            </a>
-            <a href="#faq" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            </Link>
+            <Link to="/faq" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               FAQ
-            </a>
-            <a href="#contact" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            </Link>
+            <Link to="/contact" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               Contact
-            </a>
+            </Link>
           </div>
           
           <a

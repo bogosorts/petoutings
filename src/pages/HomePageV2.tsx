@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom'
 import harborImage from '../assets/Harbor-Twin-Lakes-Sunset_by-Ben-Ingram_2022.7.jpg'
 import lighthouseImage from '../assets/Its-Beach_Lighthouse-Field_Sunset_Dogs_Film_by-Ben-Ingram_2022.jpg'
-import seabrightImage from '../assets/Seabright-_10-8-24_ClearStoryVisuals-2-768x512.jpg'
+import beachLighthouseImage from '../assets/Dogs on Beach Lighthouse.jpg'
 
 export default function HomePageV2() {
   return (
@@ -84,10 +85,11 @@ export default function HomePageV2() {
       {/* Pricing Box */}
       <section className="bg-white pt-6 pb-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white border-2 border-forest-800 rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-heading text-2xl sm:text-3xl font-bold text-center text-forest-900 mb-6">
-              The All-Inclusive Package
-            </h2>
+          <Link to="/services" className="block">
+            <div className="bg-white border-2 border-forest-800 rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl hover:border-forest-700 transition-all cursor-pointer">
+              <h2 className="font-heading text-2xl sm:text-3xl font-bold text-center text-forest-900 mb-6">
+                The All-Inclusive Package
+              </h2>
             
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
               {/* List */}
@@ -114,7 +116,8 @@ export default function HomePageV2() {
                 <p className="font-heading text-6xl sm:text-7xl font-extrabold text-forest-800 leading-none">$199</p>
               </div>
             </div>
-          </div>
+            </div>
+          </Link>
         </div>
       </section>
 
@@ -240,8 +243,8 @@ export default function HomePageV2() {
             </div>
             <div className="overflow-hidden rounded-2xl">
               <img 
-                src={seabrightImage}
-                alt="Dogs playing at Seabright Beach"
+                src={beachLighthouseImage}
+                alt="Dogs playing at beach lighthouse"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>

@@ -33,11 +33,11 @@ export default function HomePage() {
 
           <div className="mt-6">
             <a
-              href="tel:+19198093632"
+              href="tel:+16504190278"
               className="inline-block rounded-2xl border border-sand-200 p-5 hover:bg-sand-50 transition-colors"
             >
               <p className="text-sm text-sand-500">Phone</p>
-              <p className="mt-1 font-semibold text-sand-900">(919) 809-3632</p>
+              <p className="mt-1 font-semibold text-sand-900">(650) 419-0278</p>
             </a>
           </div>
 
