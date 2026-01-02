@@ -34,8 +34,7 @@ const FlyerPage = () => {
           {/* Main Headline */}
           <div className="px-8 text-center mt-6 mb-4 shrink-0">
             <h1 className="font-heading text-3xl sm:text-4xl font-bold text-forest-900 leading-tight">
-              The Ultimate 4-Hour<br />
-              Beach Camp for Your Dog
+              Socialization and Recall Training for Your Dog
             </h1>
             <p className="mt-3 text-sm font-medium text-sand-800 uppercase tracking-wide">
               Serving the South Bay Area Only <span className="mx-2">|</span> Adventures led by a CCPDT-Certified Trainer
@@ -146,10 +145,6 @@ const FlyerPage = () => {
                        Text "BEACH" to (650) 419-0278
                     </div>
 
-                    {/* Email */}
-                    <p className="text-sand-200 text-sm">
-                       questions to: <a href="mailto:charles@baypetventures.com" className="text-white hover:underline font-semibold">charles@baypetventures.com</a>
-                    </p>
                 </div>
 
                 {/* Right: QR Code */}

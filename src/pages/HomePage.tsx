@@ -31,20 +31,13 @@ export default function HomePage() {
             Text or call with your neighborhood, your dog's name/breed, and preferred days/times.
           </p>
 
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="mt-6">
             <a
               href="tel:+19198093632"
-              className="rounded-2xl border border-sand-200 p-5 hover:bg-sand-50 transition-colors"
+              className="inline-block rounded-2xl border border-sand-200 p-5 hover:bg-sand-50 transition-colors"
             >
               <p className="text-sm text-sand-500">Phone</p>
               <p className="mt-1 font-semibold text-sand-900">(919) 809-3632</p>
-            </a>
-            <a
-              href="mailto:charles@baypetventures.com"
-              className="rounded-2xl border border-sand-200 p-5 hover:bg-sand-50 transition-colors"
-            >
-              <p className="text-sm text-sand-500">Email</p>
-              <p className="mt-1 font-semibold text-sand-900">charles@baypetventures.com</p>
             </a>
           </div>
 

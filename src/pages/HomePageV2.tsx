@@ -20,8 +20,8 @@ export default function HomePageV2() {
       <section className="bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
           <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-900 leading-tight">
-            The Ultimate 4-Hour<br />
-            Santa Cruz Beach Camp
+            The Ultimate 4-Hour Socialization and Recall
+            Training Beach Camp
           </h1>
           <p className="mt-4 text-sm sm:text-base font-medium text-sand-800 uppercase tracking-wide">
             Only serving South Bay Dog Parents <span className="mx-2">|</span> Adventures led by a CCPDT-Certified Trainer

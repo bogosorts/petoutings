@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-sand-200">
-      <nav className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a href="#top" className="flex items-center gap-2">
+          <a href="/" className="flex items-center gap-2">
             <img 
               src="/petLogo.svg" 
               alt="Bay Pet Ventures Logo" 
@@ -13,6 +13,25 @@ export default function Header() {
               Bay <span className="text-forest-600">Pet Ventures</span>
             </span>
           </a>
+          
+          <div className="hidden md:flex items-center gap-6">
+            <a href="/" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+              Home
+            </a>
+            <a href="#about" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+              About Us
+            </a>
+            <a href="#services" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+              Services
+            </a>
+            <a href="#faq" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+              FAQ
+            </a>
+            <a href="#contact" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+              Contact
+            </a>
+          </div>
+          
           <a
             href="sms:+16504190278?body=BEACH"
             className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-sm sm:text-base py-2 px-4 sm:px-6 rounded-full shadow-lg transform hover:scale-105 duration-200 whitespace-nowrap"
