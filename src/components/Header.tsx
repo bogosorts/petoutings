@@ -15,19 +15,19 @@ export default function Header() {
           </a>
           
           <div className="hidden md:flex items-center gap-6">
-            <a href="/" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            <a href="/" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               Home
             </a>
-            <a href="#about" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            <a href="#about" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               About Us
             </a>
-            <a href="#services" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            <a href="#services" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               Services
             </a>
-            <a href="#faq" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            <a href="#faq" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               FAQ
             </a>
-            <a href="#contact" className="text-sm font-medium text-sand-700 hover:text-forest-600 transition-colors">
+            <a href="#contact" className="text-lg font-medium text-sand-700 hover:text-forest-600 transition-colors">
               Contact
             </a>
           </div>
