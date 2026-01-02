@@ -38,7 +38,7 @@ export default function Header() {
             </Link>
           </div>
           
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -56,12 +56,15 @@ export default function Header() {
               )}
             </button>
             
-            {/* Text Button - Hidden on very small screens, shown on larger mobile */}
+            {/* Text Button - Always visible, shorter text on mobile */}
             <a
               href="sms:+16504190278?body=BEACH"
-              className="hidden sm:inline-block bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-sm sm:text-base py-2 px-4 sm:px-6 rounded-full shadow-lg transform hover:scale-105 duration-200 whitespace-nowrap"
+              className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-xs sm:text-sm md:text-base py-2 px-3 sm:px-4 md:px-6 rounded-full shadow-lg transform hover:scale-105 duration-200 whitespace-nowrap"
             >
-              Text "BEACH"
+              <span className="hidden sm:inline">Text "BEACH" to </span>
+              <span className="sm:hidden">Text "BEACH"</span>
+              <span className="hidden sm:inline md:hidden">(650) 419-0278</span>
+              <span className="hidden md:inline">(650) 419-0278</span>
             </a>
           </div>
         </div>
@@ -105,13 +108,6 @@ export default function Header() {
               >
                 Contact
               </Link>
-              <a
-                href="sms:+16504190278?body=BEACH"
-                className="mx-4 mt-2 bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-base py-3 px-6 rounded-full shadow-lg text-center"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Text "BEACH" to (650) 419-0278
-              </a>
             </div>
           </div>
         )}
