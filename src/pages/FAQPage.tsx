@@ -17,7 +17,7 @@ export default function FAQPage() {
         },
         {
           question: "What treats do you use for training?",
-          answer: "We use fresh organic mozzarella in small amounts as a gentle, high-value reward to reinforce focus and calm behavior."
+          answer: "We use fresh organic mozzarella in small amounts as a gentle, high-value reward to reinforce focus and calm behavior. In cases of allergy, we will swap with Lamb Loafs or similar high value treats if requested."
         },
         {
           question: "Do you use private beaches?",
