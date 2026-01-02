@@ -5,11 +5,15 @@ export default function FAQPage() {
       faqs: [
         {
           question: "What exactly happens during an outing?",
-          answer: "The 4-hour timer starts at pickup. We drive from the South Bay to Santa Cruz (typically West Cliff Dog Beach). The trip includes about 3 hours of structured beach walks, supervised play (if appropriate), and calm decompression time to build confidence. We then drive your dog back home."
+          answer: "The 5-hour timer starts at pickup. We drive from the South Bay to Santa Cruz (typically West Cliff Dog Beach). The trip includes about 4 hours of structured beach walks, supervised play (if appropriate), and calm decompression time to build confidence. We then drive your dog back home."
         },
         {
           question: "Is this suitable for anxious or poorly socialized dogs?",
           answer: "Yes, this is a primary focus of our program. Because the outings are private (1:1), they are perfect for dogs who get overwhelmed in groups or need confidence without pressure. We do an initial consultation to assess your dog's temperament and trainability to ensure a good fit."
+        },
+        {
+          question: "How quickly will I see improvements in my dog's behavior?",
+          answer: "For most dogs, we see noticeable improvements within just 2 outings. You can expect to see an increase in confidence and significantly less anxiety when around other dogs. Crucially, the experience and stability gained at the beach transfers smoothly to city and suburban environments, making your daily walks at home more manageable."
         },
         {
           question: "What treats do you use for training?",
@@ -55,7 +59,7 @@ export default function FAQPage() {
         },
         {
           question: "What safety precautions are in place?",
-          answer: "Secure Handling: Leashes/harnesses are secured at all times in public. Health: Regular fresh water, frequent shade breaks, and strict heat checks. Preparation: Routes are chosen with nearby veterinary access in mind; first-aid and emergency supplies are always in the vehicle. Private Attention: Only one dog per trip minimizes risk and prevents pack-mentality issues."
+          answer: "Secure Handling: Leashes/harnesses are secured at all times in public. Health: Fresh water, frequent shade breaks, and strict heat checks. Preparation: Routes are chosen with nearby veterinary access in mind; first-aid and emergency supplies are always in the vehicle. Private Attention: Only one dog per trip minimizes risk and prevents pack-mentality issues."
         },
         {
           question: "What are the vaccination requirements?",
